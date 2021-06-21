@@ -10,6 +10,7 @@
 body {
   position: relative;
   width: 1440px;
+  margin: auto;
   font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
