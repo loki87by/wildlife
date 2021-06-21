@@ -78,11 +78,6 @@ a {
 }
 
 h1 {
-  margin: 0;
-  font-weight: 500;
-}
-
-h2 {
   z-index: 2;
   width: 155px;
   height: 60px;
@@ -95,6 +90,11 @@ h2 {
   line-height: 60px;
   text-transform: uppercase;
   color: #f7f7f7;
+}
+
+h2 {
+  margin: 0;
+  font-weight: 500;
 }
 
 p {
