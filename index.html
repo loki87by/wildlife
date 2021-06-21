@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media-styles/1439.css" />
+    <link rel="stylesheet" href="media-styles/1024.css" />
+    <link rel="stylesheet" href="media-styles/958.css" />
+    <link rel="stylesheet" href="media-styles/815-404.css" />
+    <meta name="author" content="Alexey Akulich" />
+    <title>Wildlife</title>
+  </head>
+  <body>
+    <img class="background" src="assets/fox.jpg" alt="main background" />
+    <div class="page">
+      <header>
+        <div class="logo">
+          <img class="logo-image" src="assets/path0.svg" alt="logo" />
+          <h2>Wildlife</h2>
+        </div>
+        <nav class="header-nav">
+          <ul>
+            <li class="nav-link">
+              <a class="header-nav-link" href="#">Blog</a>
+            </li>
+            <li class="nav-link">
+              <a class="header-nav-link" href="#">Contacts</a>
+            </li>
+            <li class="nav-link">
+              <a class="header-nav-link" href="#"
+                ><img src="assets/Vector.png" alt="search"
+              /></a>
+            </li>
+            <li class="nav-link">
+              <button class="header-nav-button" type="button">Sign in</button>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <section class="survival">
+        <h1 class="survival-title">Survival</h1>
+        <p class="survival-text">
+          What this means is that we exist to help protect our environment and
+          do in numbers of ways. You can save the planet by donation.
+        </p>
+        <button class="survival-button" type="button">Donate</button>
+      </section>
+      <section class="latest-articles">
+        <h1 class="latest-title">Latest articles</h1>
+        <p class="latest-text">Breaking news from the wild</p>
+        <article class="latest-slider">
+          <button class="slider-button" id="toLeft" type="button">
+            <img class="slider-button-img" src="assets/toLeft.png" alt="left" />
+          </button>
+          <template class="slide-template">
+            <div class="slide">
+              <img class="slider-image" src="" alt="deer" />
+              <p class="slider-title"></p>
+              <p class="slider-text"></p>
+            </div>
+          </template>
+          <button class="slider-button" id="toRight" type="button">
+            <img
+              class="slider-button-img"
+              src="assets/toRight.png"
+              alt="right"
+            />
+          </button>
+        </article>
+      </section>
+      <section class="get-notified">
+        <p class="notified-text">Get notified about new amazing articles</p>
+        <form>
+          <input class="notified-input" type="email" placeholder="Email" />
+          <input class="notified-button" type="submit" value="Send" />
+        </form>
+      </section>
+      <footer>
+        <div class="logo">
+          <img class="logo-image" src="assets/path0.svg" alt="logo" />
+          <h2>Wildlife</h2>
+        </div>
+        <ul class="footer-nav">
+          <li class="footer-links">
+            <a class="footer-link" href="#">Articles</a>
+          </li>
+          <li class="footer-links">
+            <a class="footer-link" href="#">About us</a>
+          </li>
+          <li class="footer-links">
+            <a class="footer-link" href="#">Learn more</a>
+          </li>
+          <li class="footer-links footer-link-img">
+            <a href="#"
+              ><img class="footer-icon" src="assets/fb.svg" alt=""
+            /></a>
+          </li>
+          <li class="footer-links footer-link-img">
+            <a href="#"
+              ><img class="footer-icon" src="assets/inst.svg" alt=""
+            /></a>
+          </li>
+          <li class="footer-links footer-link-img">
+            <a href="#"
+              ><img class="footer-icon" src="assets/pin.svg" alt=""
+            /></a>
+          </li>
+          <li class="footer-links footer-link-img">
+            <a href="#"
+              ><img class="footer-icon" src="assets/tg.svg" alt=""
+            /></a>
+          </li>
+        </ul>
+      </footer>
+      <img
+        class="background background_position_bottom"
+        src="assets/bottom.jpg"
+        alt="main background"
+      />
+    </div>
+    <script type="module" src="scripts.js"></script>
+  </body>
+</html>

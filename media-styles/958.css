@@ -1,0 +1,87 @@
+@media (max-width: 958px) {
+  footer {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+
+  h2 {
+    width: 100px;
+    height: 32px;
+    margin: 0;
+    font-size: 18px;
+    line-height: 32px;
+  }
+
+  .logo-image {
+    width: calc(100vw / 21);
+    height: calc(100vw / 25);
+  }
+
+  .header-nav {
+    font-size: 14px;
+    line-height: 2.6;
+  }
+
+  .survival-title {
+    font-size: 36px;
+  }
+
+  .survival-text {
+    font-size: 12px;
+    line-height: 1.5;
+  }
+
+  .survival-button {
+    width: 100px;
+    height: 35px;
+  }
+
+  .latest-title {
+    font-size: 32px;
+  }
+
+  .latest-text {
+    font-size: 16px;
+  }
+
+  .latest-slider {
+    margin: auto;
+  }
+
+  .slider-button {
+    margin-top: calc(100vw / 5.7);
+  }
+
+  .slider-button-img {
+    width: 17px;
+    height: 25px;
+  }
+
+  .slide {
+    width: calc(100vw / 3.2);
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+    margin-right: calc(100vw / 24);
+    margin-left: calc(100vw / 24);
+  }
+
+  .slide:nth-of-type(2) {
+    margin-right: calc(100vw / 24);
+    margin-left: 0;
+  }
+
+  .notified-text {
+    max-width: 100%;
+    font-size: 18px;
+  }
+
+  .footer-icon {
+    margin-left: 0;
+  }
+
+  .footer-link {
+    font-size: 16px;
+  }
+}

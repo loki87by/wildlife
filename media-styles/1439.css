@@ -1,0 +1,246 @@
+@media (max-width: 1439px) {
+  body {
+    width: 100%;
+  }
+
+  header {
+    width: 100%;
+    padding-top: 20px;
+  }
+
+  footer {
+    height: calc(100vw / 4);
+  }
+
+  ul {
+    padding-left: 0;
+  }
+
+  button {
+    font-size: 23px;
+    line-height: 27px;
+  }
+
+  h1 {
+    margin: 0;
+    font-weight: 500;
+  }
+
+  h2 {
+    width: 155px;
+    height: 60px;
+    margin: 0;
+    margin-right: 80px;
+    font-size: 32px;
+    line-height: 60px;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  .background {
+    height: calc(780 / 1440 * 100vw);
+  }
+
+  .background_position_bottom {
+    bottom: 0;
+    left: 0;
+    height: calc(100vw / 4);
+  }
+
+  .page {
+    max-width: calc(100vw / 1.2);
+  }
+
+  .logo {
+    margin-top: -2px;
+  }
+
+  .logo-image {
+    width: 68px;
+    height: 58px;
+    margin-right: 15px;
+    margin-left: 2px;
+  }
+
+  .header-nav {
+    font-size: 23px;
+    line-height: 60px;
+  }
+
+  .nav-link {
+    margin-right: 60px;
+  }
+
+  .nav-link:nth-of-type(2) {
+    margin-right: 55px;
+  }
+
+  .nav-link:nth-of-type(3) {
+    margin-top: 3px;
+    margin-right: 50px;
+  }
+
+  .nav-link:last-of-type {
+    margin-top: -1px;
+    margin-right: 0;
+  }
+
+  .header-nav-button {
+    width: 120px;
+    height: 50px;
+  }
+
+  .survival {
+    width: 274px;
+    margin-top: calc(100% / 12);
+  }
+
+  .survival-title {
+    font-size: calc(100vw / 25);
+    line-height: 1.5;
+    letter-spacing: 2px;
+  }
+
+  .survival-text {
+    margin-top: calc(100vw / 24);
+    margin-bottom: calc(100vw / 24);
+    font-size: 18px;
+    line-height: 27px;
+  }
+
+  .survival-button {
+    width: 160px;
+    height: 60px;
+    margin-bottom: calc(100vw / 12);
+  }
+
+  .latest-articles {
+    padding-top: calc(100vw / 12);
+  }
+
+  .latest-title {
+    margin-bottom: 20px;
+    font-size: calc(100vw / 30);
+    line-height: 1.5;
+  }
+
+  .latest-text {
+    margin-bottom: calc(100vw / 12);
+    font-size: calc(100vw / 60);
+    line-height: 1.5;
+  }
+
+  .slider-button {
+    max-width: calc(100vw / 55.5);
+    height: calc(100vw / 40);
+    padding: 0;
+    margin-top: calc(100vw / 8.9);
+  }
+
+  .slider-button:first-of-type {
+    max-width: calc(100vw / 55.5);
+  }
+
+  .slider-button-img {
+    max-width: calc(100vw / 55.5);
+  }
+
+  .slide {
+    width: calc(100vw / 4.8);
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+    margin-right: calc(100vw / 24);
+    margin-left: calc(100vw / 24);
+  }
+
+  .slide:nth-of-type(2) {
+    margin-right: -1px;
+    margin-left: 1px;
+  }
+
+  .slider-image {
+    width: 100%;
+  }
+
+  .slider-title {
+    width: calc(100vw / 18);
+    top: calc(100vw / 5.8);
+    left: calc(100vw / 13.2);
+    font-size: calc(100vw / 65);
+    line-height: 1.6;
+  }
+
+  .slider-text {
+    bottom: calc(100vw / 36);
+    left: calc(100vw / 25);
+    width: calc(100vw / 7.7);
+    font-size: calc(100vw / 85);
+    line-height: 1.6;
+  }
+
+  .get-notified {
+    padding: calc(100vw / 6);
+    padding-bottom: calc(100vw / 6);
+  }
+
+  .notified-text {
+    max-width: calc(100vw / 2.7);
+    margin-bottom: calc(100vw / 24);
+    font-size: calc(100vw / 53);
+    line-height: 1.5;
+  }
+
+  .notified-input {
+    width: calc(100vw / 2.8);
+    height: calc(100vw / 24.83);
+    padding: 0 15px;
+    padding-top: 1px;
+    margin-left: calc(100vw / 48);
+    font-size: calc(100vw / 63);
+    line-height: 1.2;
+  }
+
+  .notified-button {
+    width: calc(100vw / 12);
+    height: calc(100vw / 23.23);
+    padding-left: 1px;
+    padding-top: 1px;
+    font-size: calc(100vw / 63);
+    line-height: 1.2;
+  }
+
+  .footer-nav {
+    max-height: calc(100vw / 24);
+    padding-left: 0;
+  }
+
+  .footer-link {
+    font-size: calc(100vw / 63);
+    line-height: 2.6;
+  }
+
+  .footer-links:nth-of-type(2) {
+    margin-left: calc(100vw / 25);
+    margin-right: calc(100vw / 25);
+  }
+
+  .footer-links:nth-of-type(3) {
+    margin-right: calc(100vw / 25);
+  }
+
+  .footer-link-img {
+    width: calc(100vw / 36);
+    height: calc(100vw / 36);
+    margin-left: calc(100vw / 53);
+    font-size: calc(100vw / 63);
+    line-height: 2.6;
+  }
+
+  .footer-icon {
+    max-width: calc(100vw / 36);
+    margin-left: 4px;
+  }
+}
